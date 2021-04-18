@@ -17,8 +17,11 @@ Após clonar o projeto;
 
 ### People
 **1. GET /{id}** - Detalha a pessoa do id informado;
+
 **2. GET /** - Lista todas as pessoas cadastradas;
+
 **3. DELETE /{id}** - Deleta a pessoa do id informado;
+
 **4. POST /category** - Cria uma pessoa.
 *RequestBody:*
 ```
@@ -35,6 +38,7 @@ Após clonar o projeto;
 	]
 }
 ```
+
 **5. PUT /category** - Cria uma pessoa.
 *RequestBody:*
 ```
