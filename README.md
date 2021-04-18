@@ -1,7 +1,12 @@
 # People API
 API-REST com Spring Boot - Desenvolvida no Bootcamp Code Anywhere da Digital Innovation One
 
-## 1. Running
+## 1. Pré-Requisitos
+    * Java 8 ou versões superiores.
+    * Maven 3.6.0 ou versões superiores.
+    * Sua IDE favorita.
+
+## 2. Como rodar o projeto:
 Após clonar o projeto;
 
 1. Importar na IDE de sua preferência (Import Maven Projects);
@@ -11,7 +16,7 @@ Após clonar o projeto;
 3. Run as SpringBoot Application
 
 4. Acesso:
-* http://localhost:8080/api/v1/people/{endpoint}
+* http://localhost:8080/api/v1/people{endpoint}
 
 ## 2. Endpoints
 
@@ -57,3 +62,4 @@ Após clonar o projeto;
 	]
 }
 
+```
