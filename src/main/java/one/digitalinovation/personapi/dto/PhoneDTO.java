@@ -16,6 +16,8 @@ import one.digitalinovation.personapi.enums.PhoneType;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PhoneDTO {
+	
+	private Long id;
 
 	@Enumerated(EnumType.STRING)
 	private PhoneType type;
