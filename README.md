@@ -16,10 +16,10 @@ Após clonar o projeto;
 ## 2. Endpoints
 
 ### People
-**a. GET /{id}** - Detalha a pessoa do id informado;
-**b. GET /** - Lista todas as pessoas cadastradas;
-**c. DELETE /{id}** - Deleta a pessoa do id informado;
-**d. POST /category** - Cria uma pessoa.
+**1. GET /{id}** - Detalha a pessoa do id informado;
+**2. GET /** - Lista todas as pessoas cadastradas;
+**3. DELETE /{id}** - Deleta a pessoa do id informado;
+**4. POST /category** - Cria uma pessoa.
 *RequestBody:*
 ```
 {
@@ -35,7 +35,7 @@ Após clonar o projeto;
 	]
 }
 ```
-**e. PUT /category** - Cria uma pessoa.
+**5. PUT /category** - Cria uma pessoa.
 *RequestBody:*
 ```
 {
