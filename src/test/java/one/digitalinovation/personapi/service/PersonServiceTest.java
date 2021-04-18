@@ -12,7 +12,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import one.digitalinovation.personapi.dto.PersonDTO;
 import one.digitalinovation.personapi.dto.response.MessageResponseDTO;
 import one.digitalinovation.personapi.entity.Person;
-import one.digitalinovation.personapi.exception.PersonNotFoundException;
 import one.digitalinovation.personapi.repository.PersonRepository;
 import one.digitalinovation.personapi.utils.EntityUtils;
 
